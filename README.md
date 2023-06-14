@@ -6,7 +6,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## How to use database of the system
+1. Go to **Phpmyadmin** and insert database info_system.
+2. Go to SQL folder and init you will find a file info_system.sql.
+3. Import the file in your database.
 
+## Functionality of project
+1. it has a admin accounnt **login id: jesus.kuvalis@reichel.com** and **Password:admin123**
+2. Admin can approve leave , see its dashboard(if we specify for adminn something in functionality),can delete ,edit or view user information
+3. it has a user account **login id: awolff@jakubowski.biz** and **Password:user123**
+4. user can check its status of leave and apply leave it he/she wants and also can see there dashboard(again if we specify something in it)
+5. **Note: I have used laravel auth for the system so must import that by composer require laravel/ui**
+6. for more information visit "**https://laravel.com/docs/6.x/authentication**"
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
